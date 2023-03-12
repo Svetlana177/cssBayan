@@ -50,20 +50,17 @@ body {
     color: black;
 }
 
-/*мышь не наведена, крестик спрятан*/
 .bayan-list .bayan-open {
     opacity: 0;
     color: #798f9a;
     transition: all .7s ease;
 }
 
-/*мышь наведена, крестик показан*/
 .bayan-list:hover .bayan-open {
     transition: all .7s ease;
     opacity: 1;
 }
 
-/*аккардеон открыт, крестик повернут*/
 .bayan-list input[type=checkbox]:checked > .bayan-label .bayan-open {
     transform: rotate(45deg);
     transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
